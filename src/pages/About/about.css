@@ -1,0 +1,15 @@
+.about {
+    background-color: transparent;
+    font-size: 1.1em;
+  }
+  
+  .profile {
+    max-width: 25rem;
+    height:30rem;
+    margin-top: -50px;
+    
+  }
+  
+  .my-details {
+    background-color: rgba(243, 237, 237, 0.747);
+  }
