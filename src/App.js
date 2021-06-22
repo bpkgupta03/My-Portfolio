@@ -3,9 +3,12 @@ import MyNavbar from './components/my-navbar/my-navbar-component'
 import MyCarousel from './components/my-carousel/carousel';
 import TitleMessage from './components/title-message/title-message';
 import About from './pages/About/about';
+import Skills from './pages/Skills/skills';
 import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container'
 import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
+
 
 
 const App = () => {
@@ -31,6 +34,13 @@ const App = () => {
           </div>
         </Parallax>
       </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
+      </Container>
+
     </div>
   );
 }
